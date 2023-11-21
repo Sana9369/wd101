@@ -1,0 +1,76 @@
+body {
+  justify-content: center;
+  background-color: #85cdca;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.container {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+form {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #2c4443;
+  width: 350px;
+  padding: 30px;
+  background-color: #41b3a3;
+}
+
+.checkbox-label {
+  align-items: center;
+  display: flex;
+}
+
+.checkbox-text {
+  margin-left: 8px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.381);
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="checkbox"] {
+  padding: 9px;
+  border-radius: 4px;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.753);
+  background-color: rgba(255, 255, 255, 0.753);
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  cursor: pointer;
+}
+
+button{
+  border-radius: 4px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #47b04b;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-disp{
+  text-align: center;
+}
